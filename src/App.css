@@ -1,14 +1,7 @@
 .App {
   text-align: center;
 }
-.background{
-  background-image: url("https://lh3.googleusercontent.com/proxy/gN9AgWGcMUI5K5SCfpDqHSHCDDMuaV2CIBKcecrVYksiWUMh799wHcht5F4vY5EJcPxpE87na8vCFC6NybvYhDI5LzrPV1hrbf1NjYSddll6BtZE2VutNh5Nm65Tdg");
-  position: fixed;
-  min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  background-position: center;
-}
+
 .pageName{
   width: 100px;
 }
@@ -54,27 +47,58 @@
 .box1{
   background-color: whitesmoke;
   box-shadow: 0 0 10px grey;
-  width: 300px;
   padding: 20px;
-  height: 350px;
   text-align: center;
-  margin-left: 20px;
   border-radius: 15px;
 }
 .box1:hover{
-  width: 330px;
   background-color: slateblue;
-  margin-left: 5px;
-  height: 380px;
-  color: white;
+  margin-left: -12px;
+  color: whitesmoke;
+  padding-top: 40px;
   margin-top: -15px;
-  margin-right: -15px;
+  margin-right: -12px;
   transition-duration: 0.3s;
 }
-.flex-container{
-  display: flex;
-  flex-direction: row;
-  margin-top: 5%;
+
+.button1{
+  width: 100%;
+  margin-top: 20px;
+  height: 35px;
+  background-color:slateblue;
+  color: whitesmoke;
+  border: 0;
+}
+.button1:hover{
+  background-color: whitesmoke;
+  color: slateblue;
+}
+.box1:hover > .button1{
+  background-color: whitesmoke;
+  color: slateblue;
+}
+.item-name{
+  text-align: center;
+}
+.searchBox{
+  margin-top: 20px;
+}
+.item-price{
+  text-align: center;
+  color: slateblue;
+  font-size: 15px;
+  font-weight: bold;
+}
+.list-item{
+  padding: 10px;
+  border-bottom: solid 1px;
+  border-color: lightgray;
+}
+.list-item1{
+  padding: 10px;
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+  border-color: lightgray;
 }
 .container{
   margin-left: 10%;
@@ -90,7 +114,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.items{
+  margin-top: 20px;
+}
 .App-link {
   color: #61dafb;
 }

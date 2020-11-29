@@ -3,12 +3,12 @@ import './App.css';
 import {Card,ListGroup} from 'react-bootstrap';
 import {Switch} from '@material-ui/core';
 
-function about(){
+function P001(){
     return (
         <div>
-           <h1>About page</h1>
+           <h1>product: P001</h1>
         </div>
         
     )
 }
-export default about;
+export default P001;

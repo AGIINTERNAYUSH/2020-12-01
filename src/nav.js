@@ -21,6 +21,9 @@ function nav(){
                         <Link className='navStyle' to='/about'>
                             <Button color="inherit" className='pageName'>About</Button>
                         </Link>
+                        <Link className='navStyle' to='/contact'>
+                            <Button color="inherit" className='pageName'>Contact</Button>
+                        </Link>
                     </div>        
                 </Toolbar>
             </AppBar>

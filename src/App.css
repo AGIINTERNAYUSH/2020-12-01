@@ -8,6 +8,12 @@
 .navPageList{
   margin-left: 20%;
 }
+.detailed-img{
+  width: 35%;
+  margin-left: -72%;
+  margin-top: 1%;
+  height: 10%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -69,6 +75,11 @@
   color: whitesmoke;
   border: 0;
 }
+.design-detail-1{
+  background-color: silver;
+  margin-top: 40px;
+  height: 30px;
+}
 .button1:hover{
   background-color: whitesmoke;
   color: slateblue;
@@ -77,8 +88,13 @@
   background-color: whitesmoke;
   color: slateblue;
 }
+.itemCenter{
+  align-items: center;
+  text-align: center;
+}
 .item-name{
   text-align: center;
+  font-size: 15px;
 }
 .searchBox{
   margin-top: 20px;
@@ -104,6 +120,13 @@
   margin-left: 10%;
   margin-right: 10%;
 }
+.box2{
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px grey;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 40px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -114,9 +137,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.aboutTopic{
+  font-weight: bold;
+  color: slateblue;
+  font-size: 20px;
+}
 .items{
   margin-top: 20px;
 }
+
 .App-link {
   color: #61dafb;
 }

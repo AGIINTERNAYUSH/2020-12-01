@@ -10,9 +10,10 @@ router.route('/').get((req, res) => {
 router.route('/add').post((req, res) => {
     const name = req.body.name;
     const email = req.body.email;
+    const product = req.body.product;
     const review = req.body.review;
 
-    const newContact = new Contact({name, email, review});
+    const newContact = new Contact({name, email, product, review});
 
     newContact.save()
         .then(() => res.json('Contact added!'))

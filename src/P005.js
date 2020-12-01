@@ -18,12 +18,8 @@ function P005(){
                                             <div style={{color:'slateblue', fontWeight:'bold'}}>Myntra Store</div>
                                             <p style={{fontSize:'20px'}}>Roadster Women Grey & Pink Colourblocked Padded Jacket</p>
                                             <Divider />
-                                            <table style={{marginTop:'30px'}}>
-                                                <tr>
-                                                    <td><div style={{color:'slateblue', fontSize:'30px'}}>Rs 3,500</div></td>
-                                                    <td><div style={{marginLeft:'40px', color:'gray', fontSize:'30px'}}><del>Rs 4,638</del></div></td>
-                                                </tr>
-                                            </table>
+                                            <br />
+                                            <div style={{color:'slateblue', fontSize:'30px'}}>Rs 3,500</div>
                                             <Divider/>
                                             <div style={{ fontWeight:'bold', marginTop:'40px'}}>Specifications</div>
                                             <Grid container spacing={5}>
